@@ -1,18 +1,15 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1>ТЗ</h1>
+    <h2>Неоходимо создать СПА на Vue.js</h2>
+    <p>СПА должно поддерживать машрутизацию посредством vue-router
+      и иметь хранилище состояния реализованое через Vuex</p>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
   name: 'Home',
-  components: {
-    HelloWorld
-  }
 }
 </script>
